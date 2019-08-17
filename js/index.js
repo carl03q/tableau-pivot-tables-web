@@ -403,7 +403,7 @@
   // This is called when you click on the Configure button.
   function configure() {
 
-    const popupUrl = `${window.location.origin}/dialog.html`;
+    const popupUrl = `${window.location.origin}/tableau-pivot-tables-web/dialog.html`;
 
     let input = "";
 
