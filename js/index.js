@@ -268,7 +268,7 @@
         });
 
         console.log(fields)
-
+        console.log("Summary Data: ")
         console.log(sumdata)
         console.log(tableData)
 
@@ -276,7 +276,7 @@
 
         for (var i = 0; i < tableData.length; i++) {
           for (var j = 0; j < tableData[i].length; j++) {
-            tableData[i][j] = worksheetData[i][column_order[j]-1].formattedValue;
+            tableData[i][j] = worksheetData[i][column_order[j]-1].value;
           }
         }
 
